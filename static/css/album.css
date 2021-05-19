@@ -43,3 +43,9 @@
 }
   
   .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+  a.card-link {
+    font-weight: 800;
+    font-size: larger;
+    color: green;
+}
