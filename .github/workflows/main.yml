@@ -21,6 +21,7 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_REGION: ${{ secrets.AWS_REGION }}
   pull-request:
+    if: github.ref == 'refs/heads/dev'
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
