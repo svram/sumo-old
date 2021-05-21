@@ -29,7 +29,7 @@ jobs:
       with:
         destination_branch: "main"
         github_token: ${{ secrets.GITHUBTOKEN }}
-  deploy:
+  deploy-prod:
     if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
