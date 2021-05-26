@@ -16,7 +16,7 @@ The amount raised and number of supported is fetched by scraping the Milaap Camp
         #set the url
         URL = "https://milaap.org/fundraisers/SUMO"
     
-	    #intantiate http request object and make a GET request
+	    #instantiate http request object and make a GET request
 	    request = requests.get(URL)
 	    html = request.text
 	    
