@@ -13,7 +13,6 @@ The amount raised and number of supported is fetched by scraping the Milaap Camp
     import requests, json
     from bs4 import BeautifulSoup
     def lambda_handler(evennt, context):
-        print("hrre")
         #set the url
         URL = "https://milaap.org/fundraisers/SUMO"
     
