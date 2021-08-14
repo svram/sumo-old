@@ -1,6 +1,8 @@
 
 # SUMO
 
+### This repo is archived. To see latest codebase, go here https://github.com/svram/sumo
+
 The code for the SUMO (Singapore Universities Mission Oxygen) campaign website (https://www.sumo.sg/)
 
  - Static site hosted on S3, accelerated by Cloudfront CDN
